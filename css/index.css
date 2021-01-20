@@ -6,19 +6,25 @@ body{
 *{
     box-sizing: border-box;
 }
-.header-section{
-    background: #3198b9;
+
+@media (min-width:576px){
+    .leverage-section h1, .Designed h1{
+        font-size: 57px;
+        color: #0082c9;
+    }
 }
 @media (min-width:992px){
     .header-section img {
         max-width: 123px;
     }
-    .leverage-section h1{
+    .leverage-section h1, .Designed h1{
         font-size: 38px;
         color: #0082c9;
     }
 }
-.leverage-section h1{
-    font-size: 38px;
-    color: #0082c9;
+.header-section{
+    background: #3198b9;
+}
+.gallery-section{
+    background: #259ec3;
 }
