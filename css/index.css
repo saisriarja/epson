@@ -80,11 +80,21 @@ body{
     
     .printers-p{
     font-size: 12px;
-}
+    }
+
+    .gradient{
+        background: linear-gradient(to bottom, #f3f9fb, #d1e9f1, #bfe1ed);
+    }
 }
 
 .banner-left{
     background: url(../images/Clip-Group.png) no-repeat left top / 100% 100% ;
+}
+.gradient-3{
+    background:  #f3f9fb;
+}
+.gradient-2, .gradient-1{
+    background:  #f3f9fb;
 }
 .header-section{
     background: #3198b9;
@@ -113,16 +123,13 @@ body{
 .text-holder{
     position: absolute;
     top: 40px;
-    left: 20%;
+    left: 30%;
 }
 .blue{
     color: #0083cb;
 }
 .border-blue{
     border-bottom: 5px solid #80cff1;
-}
-.gradient{
-    background: linear-gradient(to bottom, #f3f9fb, #d1e9f1, #bfe1ed);
 }
 .bg{
     background-color: #eef7fa;
