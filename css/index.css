@@ -48,7 +48,7 @@ body{
 .font-HelveticaNeueLTStd-Bd{
     font-family: 'HelveticaNeueLTStd-Bd';
 }
-@media (min-width:576px){
+@media (max-width:576px){
     .leverage-section h2, .Designed h2{
         color: #0082c9;
     }
@@ -63,15 +63,19 @@ body{
     .w-sm-30{
         width: 30%;
     }
-    
+    .printers-p p{
+        font-size: 14px;
+    }
 }
 @media (min-width:992px){
     .header-section img {
         max-width: 123px;
     }
     .leverage-section h1, .Designed h1{
-       
         color: #0082c9;
+    }
+    .banner-section{
+        background: linear-gradient(to bottom, #fff, #d6f2f5, #68cfd8);
     }
     
     .col-lg-3-form{
@@ -138,4 +142,19 @@ form input, .select{
 }
 .submit{
     background: url(../images/submit.png) no-repeat left top / 100% 100% ;
+}
+.epson p{
+   font-size: 14px;
+   color: #6d6e71;
+}
+.epson a{
+    color: black;
+}
+.fb i{
+    color: #3b589c;
+    font-size: 23px;
+}
+.fb a{
+    color: black;
+    font-size: 18px;
 }
