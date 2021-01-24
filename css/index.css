@@ -50,8 +50,18 @@ body{
 }
 @media (min-width:576px){
     .leverage-section h2, .Designed h2{
-        
         color: #0082c9;
+    }
+    .form-sm-center{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-col-sm-10{
+        width: 80%;
+    }
+    .w-sm-30{
+        width: 30%;
     }
 }
 @media (min-width:992px){
@@ -62,18 +72,24 @@ body{
        
         color: #0082c9;
     }
-    .banner-left{
-        background: url(../images/Clip-Group.png) no-repeat left top / 100% 100% ;
-    }
+    
     .col-lg-3-form{
         flex: 0 0 21.666667%;
-    max-width: 26.666667%;
+        max-width: 26.666667%;
     }
+    
+    .printers-p{
+    font-size: 12px;
+}
+}
+
+.banner-left{
+    background: url(../images/Clip-Group.png) no-repeat left top / 100% 100% ;
 }
 .header-section{
     background: #3198b9;
 }
-.gallery-section{
+.gallery-bg{
     background: #259ec3;
 }
 .form-bg{
@@ -110,9 +126,6 @@ body{
 }
 .bg{
     background-color: #eef7fa;
-}
-.printers-p{
-    font-size: 12px;
 }
 form input, .select{
     border-radius: 3px;
