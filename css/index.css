@@ -63,6 +63,9 @@ body{
     .w-sm-30{
         width: 30%;
     }
+    .printers-p p{
+        font-size: 30px;
+        }
 }
 @media (min-width:992px){
     .header-section img {
@@ -76,10 +79,6 @@ body{
     .col-lg-3-form{
         flex: 0 0 21.666667%;
         max-width: 26.666667%;
-    }
-    
-    .printers-p{
-    font-size: 12px;
     }
 
     .gradient{
