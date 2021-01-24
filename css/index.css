@@ -63,9 +63,7 @@ body{
     .w-sm-30{
         width: 30%;
     }
-    .printers-p p{
-        font-size: 30px;
-        }
+    
 }
 @media (min-width:992px){
     .header-section img {
