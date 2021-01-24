@@ -1,15 +1,56 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'HelveticaNeue-Roman';
 }
 *{
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: url('fonts/HelveticaNeue-Bold.eot');
+    src: url('fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg'),
+         url('fonts/HelveticaNeue-Bold.ttf') format('truetype'),
+         url('fonts/HelveticaNeue-Bold.woff') format('woff'),
+         url('fonts/HelveticaNeue-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.font-HelveticaNeue-Bold{
+    font-family: 'HelveticaNeue-Bold';
+}
+@font-face {
+    font-family: 'HelveticaNeue-Roman';
+    src: url('fonts/HelveticaNeue-Roman.eot');
+    src: url('fonts/HelveticaNeue-Roman.eot?#iefix') format('embedded-opentype'),
+         url('fonts/HelveticaNeue-Roman.svg#HelveticaNeue-Roman') format('svg'),
+         url('fonts/HelveticaNeue-Roman.ttf') format('truetype'),
+         url('fonts/HelveticaNeue-Roman.woff') format('woff'),
+         url('fonts/HelveticaNeue-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.font-HelveticaNeue-Roman{
+    font-family: 'HelveticaNeue-Roman';
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Bd';
+    src: url('fonts/HelveticaNeueLTStd-Bd.eot');
+    src: url('fonts/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'),
+         url('fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg'),
+         url('fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'),
+         url('fonts/HelveticaNeueLTStd-Bd.woff') format('woff'),
+         url('fonts/HelveticaNeueLTStd-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.font-HelveticaNeueLTStd-Bd{
+    font-family: 'HelveticaNeueLTStd-Bd';
+}
 @media (min-width:576px){
-    .leverage-section h1, .Designed h1{
-        font-size: 57px;
+    .leverage-section h2, .Designed h2{
+        
         color: #0082c9;
     }
 }
@@ -18,8 +59,15 @@ body{
         max-width: 123px;
     }
     .leverage-section h1, .Designed h1{
-        font-size: 38px;
+       
         color: #0082c9;
+    }
+    .banner-left{
+        background: url(../images/Clip-Group.png) no-repeat left top / 100% 100% ;
+    }
+    .col-lg-3-form{
+        flex: 0 0 21.666667%;
+    max-width: 26.666667%;
     }
 }
 .header-section{
@@ -27,4 +75,50 @@ body{
 }
 .gallery-section{
     background: #259ec3;
+}
+.form-bg{
+    background: #3198b9;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-10{
+    font-size: 11px;
+}
+.font-13{
+    font-size: 14px;
+}
+.border-1{
+    border-right: 1px solid white;
+}
+.img-holedr{
+    position: relative;
+}
+.text-holder{
+    position: absolute;
+    top: 40px;
+    left: 20%;
+}
+.blue{
+    color: #0083cb;
+}
+.border-blue{
+    border-bottom: 5px solid #80cff1;
+}
+.gradient{
+    background: linear-gradient(to bottom, #f3f9fb, #d1e9f1, #bfe1ed);
+}
+.bg{
+    background-color: #eef7fa;
+}
+.printers-p{
+    font-size: 12px;
+}
+form input, .select{
+    border-radius: 3px;
+    border: none;
+    font-size: 11px;
+}
+.submit{
+    background: url(../images/submit.png) no-repeat left top / 100% 100% ;
 }
