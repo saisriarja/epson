@@ -47,19 +47,69 @@ body{
 .font-HelveticaNeueLTStd-Bd{
     font-family: 'HelveticaNeueLTStd-Bd';
 }
-@media (min-width:576px){
-
+@media (max-width:576px){
+    .fs-28{
+        font-size: 28px;
+    }
+    .fs-22{
+        font-size: 22px;
+    }
+    .fs-19{
+        font-size: 19px;
+    }
+    .fs-sm-18{
+        font-size: 18px;
+    }
+.img-box img{
+    position: absolute;
+}
+.img-box .text-box{
+    position: relative;
+    top: 0;
+    left: 0;
+}
 }
 @media (min-width:992px){
-
+      .border-1{
+          border-right: 1px solid white;
+      }
 }
+
 header{
     background: #3198b9;
 }
+
+.three-col-container{
+    background: #259ec3;
+}
+
 .blue{
-    color: #018dcf;
+    color: #0082c9;
+}
+
+.hb{
     font-family: 'HelveticaNeue-Bold';
 }
+
+.hbd{
+    font-family: 'HelveticaNeueLTStd-Bd';
+}
+
+.hl{
+    font-family: 'HelveticaNeue-Roman'
+}
+
 .banner-section{
     background-image: linear-gradient(to bottom, #FFFFFF, #dcf4f6, #65cdd8);
-  }
+}
+.fs-18{
+    font-size: 18px;
+}
+.img-box img{
+    position: absolute;
+}
+.img-box .text-box{
+    position: relative;
+    top: 20px;
+    left: 0;
+}
