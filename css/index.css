@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'HelveticaNeue-Roman';
 }
 *{
     box-sizing: border-box;
@@ -48,113 +47,19 @@ body{
 .font-HelveticaNeueLTStd-Bd{
     font-family: 'HelveticaNeueLTStd-Bd';
 }
-@media (max-width:576px){
-    .leverage-section h2, .Designed h2{
-        color: #0082c9;
-    }
-    .form-sm-center{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .form-col-sm-10{
-        width: 80%;
-    }
-    .w-sm-30{
-        width: 30%;
-    }
-    .printers-p p{
-        font-size: 14px;
-    }
+@media (min-width:576px){
+
 }
 @media (min-width:992px){
-    .header-section img {
-        max-width: 123px;
-    }
-    .leverage-section h1, .Designed h1{
-        color: #0082c9;
-    }
-    .banner-section{
-        background: linear-gradient(to bottom, #fff, #d6f2f5, #68cfd8);
-    }
-    
-    .col-lg-3-form{
-        flex: 0 0 21.666667%;
-        max-width: 26.666667%;
-    }
 
-    .gradient{
-        background: linear-gradient(to bottom, #f3f9fb, #d1e9f1, #bfe1ed);
-    }
 }
-
-.banner-left{
-    background: url(../images/Clip-Group.png) no-repeat left top / 100% 100% ;
-}
-.gradient-3{
-    background:  #f3f9fb;
-}
-.gradient-2, .gradient-1{
-    background:  #f3f9fb;
-}
-.header-section{
+header{
     background: #3198b9;
-}
-.gallery-bg{
-    background: #259ec3;
-}
-.form-bg{
-    background: #3198b9;
-}
-.font-18{
-    font-size: 18px;
-}
-.font-10{
-    font-size: 11px;
-}
-.font-13{
-    font-size: 14px;
-}
-.border-1{
-    border-right: 1px solid white;
-}
-.img-holedr{
-    position: relative;
-}
-.text-holder{
-    position: absolute;
-    top: 40px;
-    left: 30%;
 }
 .blue{
-    color: #0083cb;
+    color: #018dcf;
+    font-family: 'HelveticaNeue-Bold';
 }
-.border-blue{
-    border-bottom: 5px solid #80cff1;
-}
-.bg{
-    background-color: #eef7fa;
-}
-form input, .select{
-    border-radius: 3px;
-    border: none;
-    font-size: 11px;
-}
-.submit{
-    background: url(../images/submit.png) no-repeat left top / 100% 100% ;
-}
-.epson p{
-   font-size: 14px;
-   color: #6d6e71;
-}
-.epson a{
-    color: black;
-}
-.fb i{
-    color: #3b589c;
-    font-size: 23px;
-}
-.fb a{
-    color: black;
-    font-size: 18px;
-}
+.banner-section{
+    background-image: linear-gradient(to bottom, #FFFFFF, #dcf4f6, #65cdd8);
+  }
