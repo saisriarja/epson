@@ -72,6 +72,14 @@ body{
     left: 0;
 } */
 }
+@media (max-width:768px){
+    .fs-28{
+        font-size: 28px;
+    }
+    .fs-19{
+        font-size: 19px;
+    }
+}
 @media (min-width:992px){
       .border-1{
           border-right: 1px solid white;
@@ -136,7 +144,11 @@ header{
 }
 .fb{
     color: #3b589c;
-    font-size: 23px;
+    font-size: 24px;
+}
+.fb-1{
+    color: black;
+    font-size: 16px;
 }
 .bg-blue{
     background: #3198b9;
@@ -153,6 +165,7 @@ header{
     width: 100px;
     height: 34px;
 }
+
 /* .img-container .img-box img{
     position: absolute;
 }
