@@ -63,6 +63,9 @@ body{
     .fs-sm-12{
         font-size: 12px;
     }
+    iframe{
+        height: 262px;
+    }
 /* .img-box img{
     position: absolute;
 }
@@ -73,24 +76,24 @@ body{
 } */
 }
 @media (min-width:768px){
-    .fs-28{
+    .fs-lg-28{
         font-size: 28px;
     }
     .fs-19{
         font-size: 19px;
     }
-     iframe{
-         height: 100%;
-     }
+    iframe{
+        height: 302px;
+    }
      .border-1{
         border-right: 1px solid white;
     }
 }
 @media (min-width:992px){
-      .border-1{
-          border-right: 1px solid white;
-      }
-      .fs-18{
+    .border-1{
+        border-right: 1px solid white;
+    }
+    .fs-18{
         font-size: 18px;
     }
     iframe{
@@ -174,7 +177,6 @@ header{
     width: 100px;
     height: 34px;
 }
-
 /* .img-container .img-box img{
     position: absolute;
 }
